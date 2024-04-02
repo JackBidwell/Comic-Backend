@@ -69,3 +69,9 @@ end
 gem "bcrypt"
 
 gem "jwt"
+
+gem "httparty"
+
+gem 'dotenv-rails', groups: [:development, :test]
+
+gem 'rack-cors'
