@@ -7,4 +7,9 @@ Rails.application.routes.draw do
 
   resources :users
   resources :sessions
+
+  get 'comics', to: 'comics#index'
+  get 'charecters', to: 'charecters#index'
+
+
 end
